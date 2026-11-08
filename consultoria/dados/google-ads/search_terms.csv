@@ -1,0 +1,347 @@
+campaign.name,search_term,match_type,clicks,impressions,ctr,avg_cpc_brl,cost_brl
+Pesquisa | Concurso | Nova,advogado especialista em concurso público,EXACT,22,375,5.87,13.76,302.64
+Pesquisa | Concurso | Nova,advogado heteroidentificação,EXACT,1,13,7.69,22.95,22.95
+Pesquisa | Concurso | Nova,advogado mandado de segurança,EXACT,12,61,19.67,5.97,71.65
+Pesquisa | Concurso | Nova,ação judicial concurso público,EXACT,2,15,13.33,3.6,7.2
+Pesquisa | Concurso | Nova,ação judicial para tomar posse em concurso,EXACT,6,64,9.38,1.96,11.74
+Pesquisa | Concurso | Nova,liminar para tomar posse em concurso público,EXACT,0,7,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança concurso,EXACT,16,366,4.37,1.9,30.41
+Pesquisa | Concurso | Nova,mandado de segurança concurso público,EXACT,3,120,2.5,3.41,10.23
+Pesquisa | Concurso | Nova,mandado de segurança contra banca examinadora de concurso,EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança contra concurso publico,EXACT,0,9,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para posse em concurso público,EXACT,0,7,0,,0.0
+Pesquisa | Concurso | Nova,advogado concurso publico brasilia,PHRASE,1,3,33.33,9.49,9.49
+Pesquisa | Concurso | Nova,advogado especialista em concurso publico rio de janeiro,PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso publico rj,PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público belo horizonte,PHRASE,0,4,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público bh,PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público brasília,PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público df,PHRASE,0,8,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público em bh,PHRASE,0,14,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público em curitiba,PHRASE,1,9,11.11,3.55,3.55
+Pesquisa | Concurso | Nova,advogado especialista em concurso público es,PHRASE,5,19,26.32,13.96,69.82
+Pesquisa | Concurso | Nova,advogado especialista em concurso público fortaleza,PHRASE,6,26,23.08,6.42,38.51
+Pesquisa | Concurso | Nova,advogado especialista em concurso público goiania,PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público goiânia,PHRASE,3,29,10.34,8.38,25.15
+Pesquisa | Concurso | Nova,advogado especialista em concurso público mg,PHRASE,3,25,12.0,9.21,27.63
+Pesquisa | Concurso | Nova,advogado especialista em concurso público paraná,PHRASE,0,18,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público porto alegre,PHRASE,3,23,13.04,12.44,37.31
+Pesquisa | Concurso | Nova,advogado especialista em concurso público recife,PHRASE,0,21,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público rj,PHRASE,6,37,16.22,10.67,64.01
+Pesquisa | Concurso | Nova,advogado especialista em concurso público rs,PHRASE,2,21,9.52,5.61,11.23
+Pesquisa | Concurso | Nova,advogado especialista em concurso público salvador,PHRASE,3,16,18.75,14.68,44.03
+Pesquisa | Concurso | Nova,advogado especialista em concurso público sc,PHRASE,3,20,15.0,7.8,23.4
+Pesquisa | Concurso | Nova,advogado especialista em concurso público sp,PHRASE,0,10,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público são paulo,PHRASE,3,31,9.68,13.33,39.99
+Pesquisa | Concurso | Nova,advogado especialista em recurso de concurso público,PHRASE,0,5,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança anulação questão concurso público,PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança com pedido de liminar concurso público nomeação,PHRASE,2,12,16.67,4.62,9.25
+Pesquisa | Concurso | Nova,mandado de segurança nomeação concurso público,PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para nomeação em concurso público,PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advocacia concurso publico,NEAR_EXACT,1,12,8.33,22.37,22.37
+Pesquisa | Concurso | Nova,advocacia dos concursos,NEAR_EXACT,0,7,0,,0.0
+Pesquisa | Concurso | Nova,advocacia especializada em concurso público,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advocacia especializada em concursos públicos,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advocacia para concursos,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advocacia para concursos públicos,NEAR_EXACT,0,4,0,,0.0
+Pesquisa | Concurso | Nova,advogado concurseiro,NEAR_EXACT,1,8,12.5,5.54,5.54
+Pesquisa | Concurso | Nova,advogado concurso,NEAR_EXACT,6,76,7.89,17.39,104.34
+Pesquisa | Concurso | Nova,advogado concurso publico,NEAR_EXACT,4,38,10.53,11.4,45.59
+Pesquisa | Concurso | Nova,advogado concurso publico brasilia,NEAR_EXACT,2,17,11.76,9.68,19.35
+Pesquisa | Concurso | Nova,advogado concurso público,NEAR_EXACT,24,222,10.81,14.3,343.18
+Pesquisa | Concurso | Nova,advogado concurso público df,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado concursos,NEAR_EXACT,2,20,10.0,15.8,31.6
+Pesquisa | Concurso | Nova,advogado concursos publicos,NEAR_EXACT,1,4,25.0,5.0,5.0
+Pesquisa | Concurso | Nova,advogado concursos públicos,NEAR_EXACT,1,6,16.67,8.4,8.4
+Pesquisa | Concurso | Nova,advogado de concurso,NEAR_EXACT,1,113,0.88,2.35,2.35
+Pesquisa | Concurso | Nova,advogado de concurso publico,NEAR_EXACT,8,106,7.55,13.04,104.35
+Pesquisa | Concurso | Nova,advogado de concurso público,NEAR_EXACT,0,15,0,,0.0
+Pesquisa | Concurso | Nova,advogado de concursos,NEAR_EXACT,1,15,6.67,2.41,2.41
+Pesquisa | Concurso | Nova,advogado especialista concurso publico,NEAR_EXACT,0,24,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso,NEAR_EXACT,3,32,9.38,20.78,62.34
+Pesquisa | Concurso | Nova,advogado especialista em concurso brasilia,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso publico,NEAR_EXACT,1,48,2.08,18.71,18.71
+Pesquisa | Concurso | Nova,advogado especialista em concurso publico florianopolis,NEAR_EXACT,2,3,66.67,14.21,28.42
+Pesquisa | Concurso | Nova,advogado especialista em concurso público brasília,NEAR_EXACT,1,1,100,15.86,15.86
+Pesquisa | Concurso | Nova,advogado especialista em concurso público curitiba,NEAR_EXACT,0,4,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público df,NEAR_EXACT,4,34,11.76,13.89,55.57
+Pesquisa | Concurso | Nova,advogado especialista em concurso público em curitiba,NEAR_EXACT,3,8,37.5,5.74,17.23
+Pesquisa | Concurso | Nova,advogado especialista em concursos,NEAR_EXACT,1,9,11.11,8.56,8.56
+Pesquisa | Concurso | Nova,advogado especialista em concursos publicos,NEAR_EXACT,2,11,18.18,8.78,17.55
+Pesquisa | Concurso | Nova,advogado especialista em concursos públicos,NEAR_EXACT,1,10,10.0,8.82,8.82
+Pesquisa | Concurso | Nova,advogado especialista em mandado de segurança,NEAR_EXACT,9,41,21.95,6.89,62.04
+Pesquisa | Concurso | Nova,advogado especialista em mandado de segurança de concurso,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especializado em concurso,NEAR_EXACT,0,5,0,,0.0
+Pesquisa | Concurso | Nova,advogado especializado em concurso publico,NEAR_EXACT,1,7,14.29,6.35,6.35
+Pesquisa | Concurso | Nova,advogado especializado em concurso público,NEAR_EXACT,1,15,6.67,17.5,17.5
+Pesquisa | Concurso | Nova,advogado especializado em concursos publicos,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado mandado de segurança concurso público,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado para concurso,NEAR_EXACT,2,38,5.26,14.75,29.5
+Pesquisa | Concurso | Nova,advogado para concurso publico,NEAR_EXACT,1,7,14.29,3.73,3.73
+Pesquisa | Concurso | Nova,advogado para concurso público,NEAR_EXACT,2,48,4.17,18.88,37.75
+Pesquisa | Concurso | Nova,advogado para concursos,NEAR_EXACT,0,6,0,,0.0
+Pesquisa | Concurso | Nova,advogado para mandado de segurança,NEAR_EXACT,4,25,16.0,6.07,24.28
+Pesquisa | Concurso | Nova,advogado pcd concurso,NEAR_EXACT,2,12,16.67,10.75,21.5
+Pesquisa | Concurso | Nova,advogados concurso publico,NEAR_EXACT,1,23,4.35,23.46,23.46
+Pesquisa | Concurso | Nova,advogados concursos,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogados concursos publicos,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advogados de concurso,NEAR_EXACT,1,8,12.5,17.29,17.29
+Pesquisa | Concurso | Nova,advogados de concursos,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advogados de concursos publicos,NEAR_EXACT,0,10,0,,0.0
+Pesquisa | Concurso | Nova,advogados especialista em concurso publico,NEAR_EXACT,0,4,0,,0.0
+Pesquisa | Concurso | Nova,advogados especialista em concursos,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogados especialista em concursos públicos,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advogados especialistas em concurso público,NEAR_EXACT,5,50,10.0,17.02,85.09
+Pesquisa | Concurso | Nova,advogados especialistas em concursos publicos,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogados especialistas em concursos públicos,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advogados especializados em concursos publicos,NEAR_EXACT,0,3,0,,0.0
+Pesquisa | Concurso | Nova,advogados para concurso publico,NEAR_EXACT,2,6,33.33,28.14,56.27
+Pesquisa | Concurso | Nova,advogados para concursos,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advogados para concursos publicos,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,ação contra concurso público,NEAR_EXACT,0,5,0,,0.0
+Pesquisa | Concurso | Nova,ação judicial concurso publico,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,como entrar com liminar em concurso,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança concurso,NEAR_EXACT,1,8,12.5,2.1,2.1
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança em concurso,NEAR_EXACT,1,10,10.0,2.74,2.74
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança em concurso publico,NEAR_EXACT,1,27,3.7,0.51,0.51
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança para concurso,NEAR_EXACT,0,4,0,,0.0
+Pesquisa | Concurso | Nova,como entrar com um mandado de segurança em concurso publico,NEAR_EXACT,0,4,0,,0.0
+Pesquisa | Concurso | Nova,como entrar com um mandado de segurança para um concurso,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,como entrar na justiça contra concurso público,NEAR_EXACT,1,13,7.69,3.41,3.41
+Pesquisa | Concurso | Nova,como fazer um mandado de segurança para concurso,NEAR_EXACT,0,5,0,,0.0
+Pesquisa | Concurso | Nova,como funciona mandado de segurança para concurso publico,NEAR_EXACT,0,9,0,,0.0
+Pesquisa | Concurso | Nova,como funciona o mandado de segurança em concurso publico,NEAR_EXACT,0,7,0,,0.0
+Pesquisa | Concurso | Nova,como judicializar um concurso público,NEAR_EXACT,0,13,0,,0.0
+Pesquisa | Concurso | Nova,concurso advogado brasilia,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,concurso mandado de segurança,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,concurso na justiça,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,concurso público mandado de segurança,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,entrar com mandado de segurança concurso,NEAR_EXACT,0,3,0,,0.0
+Pesquisa | Concurso | Nova,escritorio de advocacia especializado em concurso publico,NEAR_EXACT,0,3,0,,0.0
+Pesquisa | Concurso | Nova,especialista em concurso público,NEAR_EXACT,0,6,0,,0.0
+Pesquisa | Concurso | Nova,especialista em concursos públicos,NEAR_EXACT,1,2,50.0,1.65,1.65
+Pesquisa | Concurso | Nova,judicializar concurso,NEAR_EXACT,0,16,0,,0.0
+Pesquisa | Concurso | Nova,liminar concurso público,NEAR_EXACT,1,14,7.14,0.19,0.19
+Pesquisa | Concurso | Nova,liminar em concurso publico,NEAR_EXACT,0,11,0,,0.0
+Pesquisa | Concurso | Nova,liminar para concurso publico,NEAR_EXACT,0,12,0,,0.0
+Pesquisa | Concurso | Nova,mandado de seguranca concurso,NEAR_EXACT,0,27,0,,0.0
+Pesquisa | Concurso | Nova,mandado de seguranca concurso publico,NEAR_EXACT,0,12,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança advogado,NEAR_EXACT,2,27,7.41,2.57,5.14
+Pesquisa | Concurso | Nova,mandado de segurança concurso publico,NEAR_EXACT,3,129,2.33,0.81,2.42
+Pesquisa | Concurso | Nova,mandado de segurança contra banca de concurso,NEAR_EXACT,0,6,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança contra concurso,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança contra edital de concurso,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança de concurso público,NEAR_EXACT,0,6,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança em concurso,NEAR_EXACT,0,17,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança em concurso publico,NEAR_EXACT,1,3,33.33,4.11,4.11
+Pesquisa | Concurso | Nova,mandado de segurança em concurso público,NEAR_EXACT,2,48,4.17,1.24,2.47
+Pesquisa | Concurso | Nova,mandado de segurança nomeação concurso público,NEAR_EXACT,0,6,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança nomeação em concurso público,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para assegurar vaga em concurso publico,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para assumir cargo público,NEAR_EXACT,0,3,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para assumir concurso,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para concurso,NEAR_EXACT,1,35,2.86,1.91,1.91
+Pesquisa | Concurso | Nova,mandado de segurança para concurso publico,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para concurso público,NEAR_EXACT,1,48,2.08,0.97,0.97
+Pesquisa | Concurso | Nova,mandado de segurança para garantir vaga em concurso,NEAR_EXACT,0,10,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para nomeação em concurso público,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para segurar vaga em concurso,NEAR_EXACT,0,4,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para ser chamado em concurso,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para tomar posse em concurso,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para tomar posse em concurso público,NEAR_EXACT,1,8,12.5,1.14,1.14
+Pesquisa | Concurso | Nova,mandado de segurança posse em concurso público,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança preterição concurso público,NEAR_EXACT,1,14,7.14,1.94,1.94
+Pesquisa | Concurso | Nova,mandado de segurança preventivo concurso público,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança processo seletivo,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança vaga concurso,NEAR_EXACT,0,8,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança vaga de concurso,NEAR_EXACT,0,6,0,,0.0
+Pesquisa | Concurso | Nova,mandado segurança concurso,NEAR_EXACT,0,8,0,,0.0
+Pesquisa | Concurso | Nova,mandado segurança concurso publico,NEAR_EXACT,1,3,33.33,4.32,4.32
+Pesquisa | Concurso | Nova,medida de segurança concurso,NEAR_EXACT,1,4,25.0,1.14,1.14
+Pesquisa | Concurso | Nova,melhor advogado para concurso público,NEAR_EXACT,1,12,8.33,9.93,9.93
+Pesquisa | Concurso | Nova,posso entrar com mandado de segurança em concurso publico,NEAR_EXACT,0,4,0,,0.0
+Pesquisa | Concurso | Nova,preciso de advogado para impetrar mandado de segurança,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,preciso de advogado para mandado de segurança,NEAR_EXACT,0,6,0,,0.0
+Pesquisa | Concurso | Nova,processo contra concurso publico,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,quando entrar com mandado de segurança em concurso publico,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,quanto um advogado cobra para entrar com mandado de segurança,NEAR_EXACT,0,2,0,,0.0
+Pesquisa | Concurso | Nova,quanto um advogado cobra para fazer um mandado de segurança,NEAR_EXACT,0,3,0,,0.0
+Pesquisa | Concurso | Nova,quanto um advogado cobra por um mandado de segurança,NEAR_EXACT,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advocacia dos concursos,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado concurso fortaleza,NEAR_PHRASE,0,9,0,,0.0
+Pesquisa | Concurso | Nova,advogado concurso publico brasilia,NEAR_PHRASE,1,1,100,33.82,33.82
+Pesquisa | Concurso | Nova,advogado concurso público df,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado concurso público porto alegre,NEAR_PHRASE,1,10,10.0,9.74,9.74
+Pesquisa | Concurso | Nova,advogado concurso público rj,NEAR_PHRASE,0,26,0,,0.0
+Pesquisa | Concurso | Nova,advogado concurso público sp,NEAR_PHRASE,1,11,9.09,9.11,9.11
+Pesquisa | Concurso | Nova,advogado cotas raciais,NEAR_PHRASE,0,5,0,,0.0
+Pesquisa | Concurso | Nova,advogado direito administrativo concurso,NEAR_PHRASE,1,2,50.0,9.44,9.44
+Pesquisa | Concurso | Nova,advogado especialista concurso publico sp,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público curitiba,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concurso público df,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em concursos bh,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado especialista em mandado de segurança de concurso,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado mandado de segurança concurso público,NEAR_PHRASE,1,2,50.0,10.65,10.65
+Pesquisa | Concurso | Nova,advogado militar concurso,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,advogado para concurso publico rj,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado para concurso público rj,NEAR_PHRASE,0,14,0,,0.0
+Pesquisa | Concurso | Nova,advogado para recurso de concurso,NEAR_PHRASE,1,4,25.0,8.06,8.06
+Pesquisa | Concurso | Nova,advogado para recurso em concurso publico,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,advogado recurso concurso,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,advogado recurso concurso publico,NEAR_PHRASE,0,7,0,,0.0
+Pesquisa | Concurso | Nova,agnaldo bastos advogados associados concursos públicos e servidores,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,agnaldo bastos lopes,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,agnaldo bastos sociedade individual de advocacia,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,auar,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,avaliações sobre karyne rhayana especialista em concurso público belo horizonte,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,ação contra banca de concurso competência,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,ceres rabelo,NEAR_PHRASE,0,5,0,,0.0
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança concurso,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança em concurso,NEAR_PHRASE,2,16,12.5,1.37,2.74
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança em concurso publico,NEAR_PHRASE,2,38,5.26,1.22,2.44
+Pesquisa | Concurso | Nova,como entrar com mandado de segurança para concurso,NEAR_PHRASE,1,4,25.0,1.44,1.44
+Pesquisa | Concurso | Nova,como entrar com um mandado de segurança em concurso publico,NEAR_PHRASE,1,5,20.0,0.84,0.84
+Pesquisa | Concurso | Nova,como fazer um mandado de segurança para concurso,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,como funciona mandado de segurança para concurso publico,NEAR_PHRASE,0,17,0,,0.0
+Pesquisa | Concurso | Nova,como funciona o mandado de segurança em concurso publico,NEAR_PHRASE,3,19,15.79,0.97,2.9
+Pesquisa | Concurso | Nova,dr agnaldo bastos,NEAR_PHRASE,0,7,0,,0.0
+Pesquisa | Concurso | Nova,escritorio pedro auar,NEAR_PHRASE,0,4,0,,0.0
+Pesquisa | Concurso | Nova,escritório pedro auar,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,especialista em concurso publico,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,especialista em concurso público,NEAR_PHRASE,1,3,33.33,14.06,14.06
+Pesquisa | Concurso | Nova,especialista em concursos,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,especialista em concursos públicos,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,fabio ximenes,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,js advocacia i concursos públicos,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,karyne rhayana especialista em concurso público belo horizonte,NEAR_PHRASE,0,4,0,,0.0
+Pesquisa | Concurso | Nova,mandado de seguranca concurso,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de seguranca concurso publico,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança aprovado em concurso público,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança com pedido de liminar concurso público nomeação,NEAR_PHRASE,0,5,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança com pedido liminar concurso público,NEAR_PHRASE,0,4,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança concurso pm,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança concurso publico,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança concurso publico municipal,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança concurso público cadastro reserva,NEAR_PHRASE,1,8,12.5,0.88,0.88
+Pesquisa | Concurso | Nova,mandado de segurança concurso público entrega de documentos,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança concurso público municipal,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança concurso público não convocação,NEAR_PHRASE,1,25,4.0,3.46,3.46
+Pesquisa | Concurso | Nova,mandado de segurança concurso público prazo,NEAR_PHRASE,1,4,25.0,1.01,1.01
+Pesquisa | Concurso | Nova,mandado de segurança contra banca de concurso,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança contra concurso,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança correção prova concurso,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança de concurso público,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança em concurso,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança em concurso público,NEAR_PHRASE,0,20,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para anular questão de concurso,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para assumir concurso,NEAR_PHRASE,0,5,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para concurso,NEAR_PHRASE,1,13,7.69,0.6,0.6
+Pesquisa | Concurso | Nova,mandado de segurança para concurso público,NEAR_PHRASE,1,14,7.14,1.54,1.54
+Pesquisa | Concurso | Nova,mandado de segurança para garantir vaga em concurso,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança para nomeação em concurso público,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança posse em concurso público,NEAR_PHRASE,0,4,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança preventivo concurso público,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança questão concurso público,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado de segurança vaga de concurso,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado segurança concurso,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,mandado segurança concurso público,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,marcela barretta,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,mattozo e ribeiro,NEAR_PHRASE,0,6,0,,0.0
+Pesquisa | Concurso | Nova,pedro auar,NEAR_PHRASE,1,18,5.56,3.97,3.97
+Pesquisa | Concurso | Nova,pedro auar advocacia,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,pedro auar advocacia endereço,NEAR_PHRASE,0,2,0,,0.0
+Pesquisa | Concurso | Nova,pedro auar advogado,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,pedro auar concursos,NEAR_PHRASE,0,17,0,,0.0
+Pesquisa | Concurso | Nova,posso entrar com mandado de segurança em concurso publico,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,prazo mandado de segurança concurso público,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,prazo para impetrar mandado de segurança em concurso publico,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,prazo para mandado de segurança concurso publico,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,quando entrar com mandado de segurança em concurso publico,NEAR_PHRASE,0,10,0,,0.0
+Pesquisa | Concurso | Nova,quando posso entrar com mandado de segurança em concurso publico,NEAR_PHRASE,0,4,0,,0.0
+Pesquisa | Concurso | Nova,quanto custa um mandado de segurança para concurso publico,NEAR_PHRASE,0,9,0,,0.0
+Pesquisa | Concurso | Nova,quanto tempo demora um mandado de segurança concurso público,NEAR_PHRASE,1,12,8.33,0.84,0.84
+Pesquisa | Concurso | Nova,rafael munhoz fernandes,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,rafael pujol,NEAR_PHRASE,0,1,0,,0.0
+Pesquisa | Concurso | Nova,safe araujo advogados,NEAR_PHRASE,0,5,0,,0.0
+Pesquisa | Concurso | Nova,silas adauto junior,NEAR_PHRASE,0,3,0,,0.0
+Pesquisa | Concurso | Nova,via advocacia,NEAR_PHRASE,1,28,3.57,1.99,1.99
+Saúde – Negativa de Plano (Pesquisa),convênio pode negar exame,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),exame não coberto pelo plano de saúde,NEAR_EXACT,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),negativa de cobertura,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),o que fazer quando o plano de saúde não cobre exame,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),plano de saúde não pode negar exame pedido por médico,NEAR_PHRASE,0,2,0,,0.0
+Licitações e contratos,mandado de segurança licitação,EXACT,0,9,0,,0.0
+Licitações e contratos,mandado de segurança licitação homologada,EXACT,0,1,0,,0.0
+Licitações e contratos,mandado de segurança contra licitação,PHRASE,0,2,0,,0.0
+Licitações e contratos,mandado de segurança licitação inabilitação,PHRASE,0,1,0,,0.0
+Licitações e contratos,mandado de segurança licitação modelo,PHRASE,0,1,0,,0.0
+Licitações e contratos,valor da causa mandado de segurança licitação,PHRASE,0,1,0,,0.0
+Licitações e contratos,advocacia licitações,NEAR_EXACT,0,7,0,,0.0
+Licitações e contratos,advogado de licitação,NEAR_EXACT,1,38,2.63,2.18,2.18
+Licitações e contratos,advogado de licitações,NEAR_EXACT,4,11,36.36,8.51,34.04
+Licitações e contratos,advogado especialista em licitação,NEAR_EXACT,1,10,10.0,11.25,11.25
+Licitações e contratos,advogado especialista em licitações,NEAR_EXACT,3,23,13.04,9.57,28.71
+Licitações e contratos,advogado especialista em licitações e contratos,NEAR_EXACT,2,16,12.5,12.35,24.7
+Licitações e contratos,advogado licitacao,NEAR_EXACT,1,4,25.0,6.74,6.74
+Licitações e contratos,advogado licitante,NEAR_EXACT,0,2,0,,0.0
+Licitações e contratos,advogado licitação,NEAR_EXACT,5,45,11.11,9.66,48.32
+Licitações e contratos,advogado licitações,NEAR_EXACT,0,16,0,,0.0
+Licitações e contratos,advogado licitações e contratos,NEAR_EXACT,1,7,14.29,0.96,0.96
+Licitações e contratos,licitacao advogado,NEAR_EXACT,0,3,0,,0.0
+Licitações e contratos,licitação advogado,NEAR_EXACT,0,1,0,,0.0
+Licitações e contratos,licitação advogados,NEAR_EXACT,0,1,0,,0.0
+Licitações e contratos,licitações advogados,NEAR_EXACT,1,1,100,11.57,11.57
+Licitações e contratos,mandado de segurança contra licitação,NEAR_EXACT,0,1,0,,0.0
+Licitações e contratos,mandado de segurança em licitação,NEAR_EXACT,0,3,0,,0.0
+Licitações e contratos,mandado de segurança em licitação publica,NEAR_EXACT,0,1,0,,0.0
+Licitações e contratos,mandado de segurança em licitações,NEAR_EXACT,0,2,0,,0.0
+Licitações e contratos,mandado de segurança licitação homologada,NEAR_EXACT,0,2,0,,0.0
+Licitações e contratos,giovani gazen,NEAR_PHRASE,0,2,0,,0.0
+Licitações e contratos,mandado de segurança em licitação,NEAR_PHRASE,0,1,0,,0.0
+Licitações e contratos,mandado de segurança em licitação publica,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado de plano de saúde,EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado direito médico,EXACT,0,3,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado especialista em plano de saúde,EXACT,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado plano de saúde,EXACT,1,6,16.67,13.16,13.16
+Saúde – Negativa de Plano (Pesquisa),advogado especialista em plano de saude df,PHRASE,0,3,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado especialista em plano de saúde df,PHRASE,0,5,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado saude suplementar,PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advocacia contra planos de saude,NEAR_EXACT,0,4,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advocacia especializada em saúde,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado area saude,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado contra plano de saude,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado da area da saude,NEAR_EXACT,0,5,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado da saude,NEAR_EXACT,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado em direito da saude,NEAR_EXACT,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado especialista direito medico,NEAR_EXACT,1,2,50.0,14.78,14.78
+Saúde – Negativa de Plano (Pesquisa),advogado especialista em direito médico,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado especialista em plano de saude,NEAR_EXACT,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado especialista em saúde,NEAR_EXACT,0,5,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado hospitalar,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado na area da saude,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado plano de saude,NEAR_EXACT,0,10,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado saude,NEAR_EXACT,1,5,20.0,4.0,4.0
+Saúde – Negativa de Plano (Pesquisa),direito médico advogado,NEAR_EXACT,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado bariatrico,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado especialista em cirurgia plastica,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),advogado liminar plano de saude,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),alexandra barp,NEAR_PHRASE,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),alexandra barp salgado,NEAR_PHRASE,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),bruna blank,NEAR_PHRASE,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),bruna orlando,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),clenir sani avanza,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),danielle advocacia direito médico e da saúde,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),direito medico brasilia,NEAR_PHRASE,0,3,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),direito médico alberthy ogliari advocacia,NEAR_PHRASE,0,17,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),dr elton fernandes,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),eduardo dantas direito médico,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),honorários ação contra plano de saúde,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),juliana peneda hasse,NEAR_PHRASE,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),mariana friedrich,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),mariana friedrich advocacia,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),mariana friedrich advocacia médica,NEAR_PHRASE,0,6,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),milena bassani,NEAR_PHRASE,0,4,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),milena bassani advogada,NEAR_PHRASE,0,1,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),samanta takahashi,NEAR_PHRASE,0,2,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),samantha takahashi,NEAR_PHRASE,0,6,0,,0.0
+Saúde – Negativa de Plano (Pesquisa),silva pimenta advogados reclame aqui,NEAR_PHRASE,0,1,0,,0.0

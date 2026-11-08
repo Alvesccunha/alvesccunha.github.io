@@ -1,0 +1,14 @@
+campaign.id,campaign.name,campaign.status,campaign.bidding_strategy_type,metrics.clicks,metrics.impressions,metrics.ctr,metrics.average_cpc_brl,metrics.cost_brl,metrics.conversions,metrics.cost_per_conversion_brl,metrics.search_impression_share,metrics.search_budget_lost_impression_share,metrics.search_rank_lost_impression_share
+23541474900,Direito Administrativo (servidores),PAUSED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+23545624942,Advogado em concursos públicos,REMOVED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+23546871565,Leads-Inicial,REMOVED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+23548191319,Contato_WhatsApp,REMOVED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+23559665224,Leitura de Artigos - Licença,PAUSED,TARGET_SPEND,0,0,0,0.0,0.0,0,0.0,,,
+23565143705,Direito Administrativo (Concursos),PAUSED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+23570353395,Pesquisa | Concurso | Nova,PAUSED,MAXIMIZE_CONVERSIONS,1156,12552,9.21,9.18,10613.31,338,31.4,22.96,39.79,37.25
+23580392395,Advogado Especializado em Direito Administrativo,PAUSED,TARGET_SPEND,0,0,0,0.0,0.0,0,0.0,,,
+23600152508,Concursos Grandes,PAUSED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+23776764180,Direito administrativo amplo,PAUSED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+23782075592,Licitações e contratos,PAUSED,MAXIMIZE_CONVERSIONS,113,1452,7.78,7.68,867.44,0,0.0,30.11,28.23,41.66
+23782087817,Apreensão mercadorias,PAUSED,MAXIMIZE_CONVERSIONS,0,0,0,0.0,0.0,0,0.0,,,
+24341428266,Saúde – Negativa de Plano (Pesquisa),ENABLED,TARGET_SPEND,63,970,6.49,10.92,687.89,5,137.58,44.36,22.93,32.71

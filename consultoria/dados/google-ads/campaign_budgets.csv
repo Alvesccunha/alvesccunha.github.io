@@ -1,0 +1,11 @@
+campaign,status,channel_type,channel_subtype,bidding_strategy,daily_budget_brl,delivery
+Direito Administrativo (servidores),PAUSED,SEARCH,,MAXIMIZE_CONVERSIONS,10.0,STANDARD
+Leitura de Artigos - Licença,PAUSED,SEARCH,,TARGET_SPEND,2.44,STANDARD
+Direito Administrativo (Concursos),PAUSED,SEARCH,,MAXIMIZE_CONVERSIONS,14.0,STANDARD
+Pesquisa | Concurso | Nova,PAUSED,SEARCH,,MAXIMIZE_CONVERSIONS,55.0,STANDARD
+Advogado Especializado em Direito Administrativo,PAUSED,SMART,SMART_CAMPAIGN,TARGET_SPEND,9.5,STANDARD
+Concursos Grandes,PAUSED,SEARCH,,MAXIMIZE_CONVERSIONS,30.0,STANDARD
+Direito administrativo amplo,PAUSED,SEARCH,,MAXIMIZE_CONVERSIONS,20.0,STANDARD
+Licitações e contratos,PAUSED,SEARCH,,MAXIMIZE_CONVERSIONS,10.0,STANDARD
+Apreensão mercadorias,PAUSED,SEARCH,,MAXIMIZE_CONVERSIONS,10.0,STANDARD
+Saúde – Negativa de Plano (Pesquisa),ENABLED,SEARCH,,TARGET_SPEND,25.0,STANDARD

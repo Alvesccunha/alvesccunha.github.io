@@ -1,0 +1,4 @@
+device,clicks,impressions,ctr,cost_brl,conversions,cost_per_conv_brl
+DESKTOP,234,2907,8.05,1628.01,36,45.22
+MOBILE,1093,12014,9.1,10489.96,304,34.51
+TABLET,5,53,9.43,50.67,3,16.89

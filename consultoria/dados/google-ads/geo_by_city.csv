@@ -1,0 +1,215 @@
+city,region,clicks,impressions,cost_brl,conversions,cpa_brl
+Brasilia,Federal District,109,1496,1156.04,23.0,50.26
+Rio de Janeiro,State of Rio de Janeiro,48,657,478.93,16.0,29.93
+Goiania,State of Goias,34,296,366.87,11.5,31.9
+Fortaleza,Ceara,38,310,353.36,8.5,41.57
+Curitiba,State of Parana,35,254,345.17,13.0,26.55
+Sao Paulo,State of Sao Paulo,36,428,323.99,9.0,36.0
+Salvador,State of Bahia,33,298,301.7,10.0,30.17
+Florianopolis,State of Santa Catarina,37,190,262.11,7.0,37.44
+Porto Alegre,State of Rio Grande do Sul,25,226,256.3,5.0,51.26
+Recife,State of Pernambuco,24,255,233.74,5.0,46.75
+Teresina,State of Piaui,23,203,229.11,10.0,22.91
+Manaus,State of Amazonas,27,246,220.37,8.0,27.55
+Natal,State of Rio Grande do Norte,17,166,137.72,3.0,45.91
+Belo Horizonte,State of Minas Gerais,14,239,127.72,6.5,19.65
+Campinas,State of Sao Paulo,11,70,122.2,3.0,40.73
+Sao Luis,State of Maranhao,12,167,116.32,4.0,29.08
+Joao Pessoa,State of Paraiba,10,179,108.2,2.5,43.28
+Vila Velha,State of Espirito Santo,11,83,105.15,4.0,26.29
+Aracaju,State of Sergipe,6,71,97.1,3.0,32.37
+Macapa,State of Amapa,13,84,95.96,2.0,47.98
+Palmas,State of Tocantins,7,66,87.41,3.0,29.14
+Maceio,State of Alagoas,11,92,87.3,1.0,87.3
+Belem,State of Para,9,106,80.88,1.0,80.88
+Porto Velho,State of Rondonia,11,95,80.19,2.0,40.09
+Itaperuna,State of Rio de Janeiro,5,21,80.13,1.0,80.13
+Sorocaba,State of Sao Paulo,6,19,80.01,3.0,26.67
+Sao Jose,State of Santa Catarina,5,42,73.39,4.0,18.35
+Juazeiro do Norte,Ceara,7,43,72.81,4.0,18.2
+Cuiaba,State of Mato Grosso,7,76,72.02,2.0,36.01
+Uberaba,State of Minas Gerais,7,33,70.46,1.0,70.46
+Campos dos Goytacazes,State of Rio de Janeiro,6,32,67.32,1.0,67.32
+Guarulhos,State of Sao Paulo,5,26,66.62,2.0,33.31
+Ilheus,State of Bahia,2,19,62.7,1.0,62.7
+Vitoria,State of Espirito Santo,9,77,62.43,2.0,31.22
+Petrolina,State of Pernambuco,7,49,62.19,2.0,31.09
+Campo Grande,State of Mato Grosso do Sul,9,63,61.95,1.0,61.95
+Aguas Lindas de Goias,State of Goias,5,24,60.09,1.0,60.09
+Feira de Santana,State of Bahia,7,71,59.43,0.0,
+Governador Valadares,State of Minas Gerais,5,18,58.25,1.0,58.25
+Palmeira,State of Parana,3,3,55.48,1.0,55.48
+Foz do Iguacu,State of Parana,4,24,54.85,2.0,27.43
+Rio Grande,State of Rio Grande do Sul,5,41,53.47,3.0,17.82
+Ipatinga,State of Minas Gerais,7,37,48.64,3.0,16.21
+Francisco Beltrao,State of Parana,5,8,47.65,0.0,
+Joinville,State of Santa Catarina,5,39,47.25,3.0,15.75
+Parauapebas,State of Para,2,23,46.28,2.0,23.14
+Serra,State of Espirito Santo,5,48,46.06,3.0,15.35
+Braganca Paulista,State of Sao Paulo,3,6,45.61,0.0,
+Luziania,State of Goias,5,23,44.28,1.0,44.28
+Cariacica,State of Espirito Santo,2,17,43.32,1.0,43.32
+Queimadas,State of Paraiba,2,4,42.46,2.0,21.23
+Juiz de Fora,State of Minas Gerais,3,52,41.64,2.0,20.82
+Pelotas,State of Rio Grande do Sul,6,48,40.83,0.0,
+Curitibanos,State of Santa Catarina,3,9,40.26,1.0,40.26
+Campina Grande,State of Paraiba,3,61,40.0,0.0,
+Cachoeiro de Itapemirim,State of Espirito Santo,5,23,39.71,3.0,13.24
+Cabo Frio,State of Rio de Janeiro,2,9,39.6,0.0,
+Blumenau,State of Santa Catarina,5,19,38.45,0.0,
+Palhoca,State of Santa Catarina,3,27,37.35,1.0,37.35
+Sao Bernardo do Campo,State of Sao Paulo,3,23,35.84,3.0,11.95
+Mimoso do Sul,State of Espirito Santo,2,18,35.69,1.0,35.69
+Barbacena,State of Minas Gerais,3,8,34.51,1.0,34.51
+Bauru,State of Sao Paulo,3,8,33.15,1.0,33.15
+Otacilio Costa,State of Santa Catarina,1,3,32.12,1.0,32.12
+Sobral,Ceara,2,8,31.19,0.0,
+Betim,State of Minas Gerais,4,22,31.16,2.5,12.46
+Ararangua,State of Santa Catarina,2,3,31.07,2.0,15.54
+Balneario Camboriu,State of Santa Catarina,2,21,30.52,0.0,
+Viamao,State of Rio Grande do Sul,2,7,30.21,0.0,
+Vitoria da Conquista,State of Bahia,3,52,29.86,0.0,
+Brusque,State of Santa Catarina,2,7,29.64,2.0,14.82
+Patos,State of Paraiba,4,11,28.73,0.0,
+Maraba,State of Para,3,11,27.77,1.0,27.77
+Saquarema,State of Rio de Janeiro,1,5,26.77,0.0,
+Uberlandia,State of Minas Gerais,4,45,26.69,0.0,
+Arapiraca,State of Alagoas,3,28,26.68,0.0,
+Araguaina,State of Tocantins,4,19,26.67,2.0,13.34
+Canoinhas,State of Santa Catarina,3,10,25.94,1.0,25.94
+Angra dos Reis,State of Rio de Janeiro,2,14,25.82,1.0,25.82
+Varzea Grande,State of Mato Grosso,1,19,25.74,1.0,25.74
+Duque de Caxias,State of Rio de Janeiro,3,21,25.42,0.0,
+Caico,State of Rio Grande do Norte,2,6,25.07,0.0,
+Telemaco Borba,State of Parana,1,1,24.53,0.0,
+Vitoria de Santo Antao,State of Pernambuco,2,3,24.52,0.0,
+Pacajus,Ceara,2,4,24.3,0.0,
+Chapeco,State of Santa Catarina,3,30,23.95,0.0,
+Imperatriz,State of Maranhao,3,11,23.79,1.0,23.79
+Vilhena,State of Rondonia,1,10,23.46,0.0,
+Divinopolis,State of Minas Gerais,3,26,23.36,1.0,23.36
+Penapolis,State of Sao Paulo,4,7,23.3,0.0,
+Santa Cruz,State of Rio Grande do Norte,2,5,22.97,1.0,22.97
+Gaspar,State of Santa Catarina,1,7,22.73,1.0,22.73
+Caruaru,State of Pernambuco,4,29,22.63,0.0,
+Piracicaba,State of Sao Paulo,1,4,22.62,1.0,22.62
+Gravatai,State of Rio Grande do Sul,2,6,22.44,1.0,22.44
+Sao Leopoldo,State of Rio Grande do Sul,2,6,22.38,2.0,11.19
+Ribeirao das Neves,State of Minas Gerais,2,12,22.36,0.0,
+Lages,State of Santa Catarina,1,17,22.22,0.0,
+Igrejinha,State of Rio Grande do Sul,1,2,21.77,0.0,
+Janauba,State of Minas Gerais,1,2,21.57,0.0,
+Londrina,State of Parana,3,36,21.33,2.0,10.66
+Goianesia,State of Goias,1,1,21.13,1.0,21.13
+Uruguaiana,State of Rio Grande do Sul,1,2,20.87,0.0,
+Santos,State of Sao Paulo,3,25,20.15,0.0,
+Tiangua,Ceara,1,14,20.06,0.0,
+Alvorada,State of Rio Grande do Sul,1,7,20.02,0.0,
+Papagaios,State of Minas Gerais,1,3,19.94,0.0,
+Jaboatao dos Guararapes,State of Pernambuco,1,23,19.78,0.0,
+Ananindeua,State of Para,1,5,19.68,0.0,
+Franca,State of Sao Paulo,1,7,19.51,0.0,
+Cruz das Almas,State of Bahia,3,4,19.11,1.0,19.11
+Aquidauana,State of Mato Grosso do Sul,1,1,19.0,0.0,
+Jaru,State of Rondonia,1,9,18.49,1.0,18.49
+Sumare,State of Sao Paulo,2,5,18.47,0.0,
+Casimiro de Abreu,State of Rio de Janeiro,1,5,18.19,0.0,
+Cascavel,State of Parana,3,43,18.19,0.0,
+Rio Verde,State of Goias,2,9,18.05,0.0,
+Viradouro,State of Sao Paulo,1,1,18.04,0.0,
+Nova Iguacu,State of Rio de Janeiro,1,22,17.86,0.0,
+Jequie,State of Bahia,1,1,17.65,1.0,17.65
+Rio Pardo,State of Rio Grande do Sul,1,2,17.06,1.0,17.06
+Rondonopolis,State of Mato Grosso,2,9,16.94,0.0,
+Itatiba,State of Sao Paulo,1,2,16.89,1.0,16.89
+Contagem,State of Minas Gerais,1,13,16.22,0.0,
+Santa Luzia,State of Minas Gerais,1,15,15.99,1.0,15.99
+Patos de Minas,State of Minas Gerais,1,1,15.93,0.0,
+Apucarana,State of Parana,1,5,15.85,0.0,
+Mossoro,State of Rio Grande do Norte,1,11,15.47,1.0,15.47
+Garanhuns,State of Pernambuco,1,13,15.32,0.0,
+Lagarto,State of Sergipe,2,18,15.31,0.0,
+Ipira,State of Bahia,1,7,15.21,0.0,
+Boa Vista,State of Roraima,2,58,15.04,2.0,7.52
+Paracatu,State of Minas Gerais,1,1,15.01,0.0,
+Maracanau,Ceara,1,13,14.91,1.0,14.91
+Olinda,State of Pernambuco,2,11,14.91,1.0,14.91
+Formosa,State of Goias,2,8,14.71,0.0,
+Ji-Parana,State of Rondonia,1,1,14.61,0.0,
+Tangara da Serra,State of Mato Grosso,1,3,14.53,1.0,14.53
+Montes Claros,State of Minas Gerais,3,48,14.47,2.0,7.24
+Sao Goncalo,State of Rio de Janeiro,1,11,14.41,1.0,14.41
+Santo Angelo,State of Rio Grande do Sul,1,3,14.33,1.0,14.33
+Timon,State of Maranhao,1,13,14.29,1.0,14.29
+Castanhal,State of Para,3,15,14.22,0.0,
+Cacador,State of Santa Catarina,3,6,14.14,1.0,14.14
+Dourados,State of Mato Grosso do Sul,4,14,14.04,1.0,14.04
+Bom Jesus da Lapa,State of Bahia,1,2,13.93,0.0,
+Tefe,State of Amazonas,1,4,13.59,0.0,
+Pilar,State of Alagoas,1,1,13.43,0.0,
+Caucaia,Ceara,1,5,13.32,0.5,26.64
+Erechim,State of Rio Grande do Sul,1,1,13.3,1.0,13.3
+Sant'Ana do Livramento,State of Rio Grande do Sul,1,5,13.21,1.0,13.21
+Barra Mansa,State of Rio de Janeiro,2,7,12.99,1.0,12.99
+Colatina,State of Espirito Santo,1,7,12.94,0.0,
+Presidente Medici,State of Rondonia,1,1,12.67,0.0,
+Sao Gotardo,State of Minas Gerais,1,4,12.65,0.0,
+Taboao da Serra,State of Sao Paulo,1,5,12.19,0.0,
+Alagoinhas,State of Bahia,1,6,12.17,1.0,12.17
+Rosario do Sul,State of Rio Grande do Sul,1,3,12.17,0.0,
+Guaruja,State of Sao Paulo,1,8,12.05,0.0,
+Cajazeiras,State of Paraiba,1,10,11.98,0.0,
+Santa Cruz do Capibaribe,State of Pernambuco,1,7,11.93,0.0,
+Itabuna,State of Bahia,2,9,11.9,0.0,
+Mauriti,Ceara,1,5,11.86,0.0,
+Timbo,State of Santa Catarina,1,2,11.7,0.0,
+Barreiras,State of Bahia,1,4,11.69,0.0,
+Sarandi,State of Parana,1,1,11.67,0.0,
+Pombal,State of Paraiba,3,4,11.65,0.0,
+Iturama,State of Minas Gerais,1,1,11.5,0.0,
+Nossa Senhora do Socorro,State of Sergipe,1,1,11.41,1.0,11.41
+Januaria,State of Minas Gerais,1,2,11.39,1.0,11.39
+Guanambi,State of Bahia,1,3,11.3,0.0,
+Goianira,State of Goias,1,2,11.25,0.0,
+Rolim de Moura,State of Rondonia,1,2,11.17,0.0,
+Santa Maria,State of Rio Grande do Sul,2,17,11.17,0.0,
+Mesquita,State of Rio de Janeiro,1,11,11.15,0.0,
+Angatuba,State of Sao Paulo,1,4,11.14,0.0,
+Ilhabela,State of Sao Paulo,1,1,11.07,1.0,11.07
+Governador Celso Ramos,State of Santa Catarina,1,1,10.91,0.0,
+Sao Jose do Rio Preto,State of Sao Paulo,2,19,10.88,0.0,
+Criciuma,State of Santa Catarina,1,10,10.74,1.0,10.74
+Alfenas,State of Minas Gerais,1,12,10.72,1.0,10.72
+Sao Joao del Rei,State of Minas Gerais,1,3,10.54,0.0,
+Oliveira,State of Minas Gerais,1,4,10.38,0.0,
+Maringa,State of Parana,1,2,10.23,0.0,
+Itaquaquecetuba,State of Sao Paulo,1,9,10.16,0.0,
+Santiago,State of Rio Grande do Sul,1,2,10.01,0.0,
+Russas,Ceara,1,4,9.88,0.0,
+Tres Coracoes,State of Minas Gerais,1,2,9.87,0.0,
+Batatais,State of Sao Paulo,1,3,9.7,1.0,9.7
+Porto Calvo,State of Alagoas,1,1,9.67,0.0,
+Campo Largo,State of Parana,1,1,9.6,1.0,9.6
+Toritama,State of Pernambuco,1,2,9.55,1.0,9.55
+Formiga,State of Minas Gerais,1,2,9.53,0.0,
+Valparaiso de Goias,State of Goias,1,6,9.49,0.0,
+Fazenda Rio Grande,State of Parana,2,4,9.47,1.0,9.47
+Arcoverde,State of Pernambuco,1,5,9.45,0.0,
+Tiete,State of Sao Paulo,1,1,9.44,1.0,9.44
+Serrinha,State of Bahia,2,3,9.43,0.0,
+Rio do Sul,State of Santa Catarina,1,2,9.37,0.0,
+Pinheiro,State of Maranhao,1,1,9.35,0.0,
+Jundiai,State of Sao Paulo,1,2,9.28,0.0,
+Jaragua do Sul,State of Santa Catarina,1,2,9.15,0.0,
+Itapoa,State of Santa Catarina,1,3,9.11,1.0,9.11
+Ouro Preto do Oeste,State of Rondonia,1,2,9.1,0.0,
+Sao Jose dos Pinhais,State of Parana,1,15,9.05,0.0,
+Osasco,State of Sao Paulo,1,1,8.77,0.0,
+Brejo Santo,Ceara,1,6,8.75,1.0,8.75
+Quirinopolis,State of Goias,1,6,8.7,1.0,8.7
+Ibate,State of Sao Paulo,1,2,8.54,0.0,
+Lajedo,State of Pernambuco,1,3,8.51,0.0,
+Nova Odessa,State of Sao Paulo,1,4,8.41,0.0,
+Lavras,State of Minas Gerais,1,6,8.4,0.0,
+Parnamirim,State of Rio Grande do Norte,1,17,8.34,0.0,
+Garopaba,State of Santa Catarina,1,2,8.3,0.0,
