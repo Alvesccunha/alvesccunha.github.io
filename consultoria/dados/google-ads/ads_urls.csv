@@ -1,0 +1,18 @@
+campaign,ad_group,ad_id,ad_type,status,final_url,landing_exists_in_wp
+Advogado Especializado em Direito Administrativo,Smart Campaign Managed AdGroup,798028141155,SMART_CAMPAIGN_AD,ENABLED,(Smart Campaign — URL não exposta pela API),N/A
+Leitura de Artigos - Licença,Leitura artigos,797031002550,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/licenca-servidor-curso-formacao-outros-entes/,SIM (post ID 2275)
+Direito Administrativo (servidores),Concursos Públicos novo,797385051546,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Direito Administrativo (Concursos),Grupo de anúncios 1,797496685097,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Direito Administrativo (servidores),Servidores Públicos,796774631930,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Contato_WhatsApp,Grupo de anúncios 1,796650295373,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Direito Administrativo (Concursos),Concurso Públicos Final,797388948156,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Direito Administrativo (servidores),Concursos Públicos,796774072736,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Concursos Grandes,Concursos Grandes,798439144229,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Contato_WhatsApp,Grupo de anúncios 2,796538788767,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Pesquisa | Concurso | Nova,Advogado Especialista em Concurso Público,797652220309,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/advogado-concurso-publico/,SIM (page ID 4798)
+Apreensão mercadorias,Grupo de anúncios 1,806385588699,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Saúde – Negativa de Plano (Pesquisa),Urgência e negativa,827745736692,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/advogado-plano-de-saude/,NÃO existe no WP
+Licitações e contratos,Grupo de anúncios 1,806497655471,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Leads-Inicial,Grupo de anúncios 1,796523188699,RESPONSIVE_SEARCH_AD,PAUSED,https://alvescunhaadvocacia.adv.br/,home
+Leads-Inicial,Grupo de anúncios 1,796646856635,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/,home
+Saúde – Negativa de Plano (Pesquisa),Advogado plano de saúde,827870896925,RESPONSIVE_SEARCH_AD,ENABLED,https://alvescunhaadvocacia.adv.br/advogado-plano-de-saude/,NÃO existe no WP

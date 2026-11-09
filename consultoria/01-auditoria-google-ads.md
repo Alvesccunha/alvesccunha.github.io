@@ -169,27 +169,71 @@ Dados em `segments_hour_day.csv` (168 linhas). Análise detalhada fica para a pr
 
 ---
 
-## 5. Anúncios e landing pages — ponto fraco estrutural
+## 5. Anúncios e landing pages
 
-**Todos os anúncios ativos apontam para a mesma URL**: `https://alvescunhaadvocacia.adv.br/`.
+> **Correção 2026-11-09:** a primeira versão deste relatório afirmou que "todos os anúncios apontam para a home". Isso era errado — generalização indevida a partir da amostra do preview. Após extração completa das URLs de 17 anúncios não-removidos + 40 sitelinks, o quadro real é mais específico e, em dois pontos, mais grave.
 
-Isso inclui:
-- Anúncio "Servidores Públicos" → home;
-- Anúncio "Concursos Públicos" → home;
-- Anúncio "Licitações" (quando ativo) → home;
-- Anúncio "Saúde – Negativa de Plano" → home.
+### 5.1. Destino real de cada anúncio ativo
 
-Isso é ruim por três razões:
+| Campanha | Grupo de anúncios | Status ad | Final URL |
+|---|---|---|---|
+| **Pesquisa \| Concurso \| Nova** (principal ativa) | Advogado Especialista em Concurso Público | ENABLED | **`/advogado-concurso-publico/`** ✓ existe |
+| **Saúde – Negativa de Plano** (única ENABLED hoje) | Urgência e negativa | ENABLED | `/advogado-plano-de-saude/` ← **não existe no WP** |
+| **Saúde – Negativa de Plano** | Advogado plano de saúde | ENABLED | `/advogado-plano-de-saude/` ← **não existe no WP** |
+| Leitura de Artigos - Licença | Leitura artigos | ENABLED | `/licenca-servidor-curso-formacao-outros-entes/` ✓ |
+| Direito Administrativo (servidores) | Concursos Públicos novo | ENABLED | `/` (home) |
+| Direito Administrativo (servidores) | Servidores Públicos | ENABLED | `/` (home) |
+| Direito Administrativo (servidores) | Concursos Públicos | ENABLED | `/` (home) |
+| Direito Administrativo (Concursos) | Grupo de anúncios 1 | ENABLED | `/` (home) |
+| Direito Administrativo (Concursos) | Concurso Públicos Final | ENABLED | `/` (home) |
+| Concursos Grandes | Concursos Grandes | ENABLED | `/` (home) |
+| Licitações e contratos | Grupo de anúncios 1 | ENABLED | `/` (home) |
+| Apreensão mercadorias | Grupo de anúncios 1 | ENABLED | `/` (home) |
+| Contato_WhatsApp | Grupo 1 | ENABLED | `/` (home) |
+| Contato_WhatsApp | Grupo 2 | ENABLED | `/` (home) |
+| Leads-Inicial | Grupo 1 (×2) | 1 ENABLED, 1 PAUSED | `/` (home) |
+| Advogado Especializado em DA | Smart Campaign Managed AdGroup | ENABLED | (Smart Campaign — URL não transparente via API) |
 
-1. **Quality Score sofre.** Uma das métricas do Quality Score é "relevância da página de destino para a palavra-chave". Levar quem buscou "advogado mandado de segurança concurso" para uma home que apresenta 6 áreas de atuação igualmente recebe um escore de relevância menor — e o escore baixo é parte dos 37,5% de impressões perdidas por rank.
-2. **Taxa de conversão de clique → WhatsApp cai.** Quem clicou em "Mandado de segurança concurso" e caiu numa home genérica tem que ler, decidir se é aqui mesmo que atende, achar o botão. Fricção extra.
-3. **Mistura o tráfego de fora do foco (Saúde) com o domínio profissional em Administrativo.** Visitantes de tráfego de Saúde viajam na home do escritório de Direito Administrativo — isso é inconsistência de posicionamento.
+### 5.2. O que é verdade sobre o estado atual
 
-**O texto dos anúncios é razoavelmente bom.** Um exemplo (campanha Servidores, anúncio `796774631930`):
+**Verdade 1 — A campanha principal de Concurso está certa.** O anúncio que gerou 95% das conversões dos 180 dias aponta para `/advogado-concurso-publico/`. Página existe no WP (ID 4798, 29KB de conteúdo), publicada. **Esse ponto está bem feito.**
+
+**Verdade 2 — Problema grave e novo: a campanha de Saúde está rodando contra uma landing que não existe.** A campanha `Saúde – Negativa de Plano (Pesquisa)` é a única com `status = ENABLED` hoje, consome R$ 25/dia, e seus dois anúncios apontam para `/advogado-plano-de-saude/`. Essa URL **não está entre as 7 páginas publicadas no WordPress ao vivo** (confirmado via WP REST). Resultado provável: cada clique cai em 404 ou em redirect para a home. Isso explica materialmente o CPA 4× pior (R$ 137 contra R$ 32 da campanha de Concurso): não é só "fora de foco", é **tráfego pago indo para o nada**. Esse achado é a razão número 1 para pausar a campanha de Saúde até que a landing exista.
+
+**Verdade 3 — Sitelinks também quebrados.** Entre os ~40 sitelinks configurados, pelo menos dois apontam para páginas inexistentes:
+- `/mandado-seguranca-concurso/` (2 sitelinks: "Mandado de segurança") — página **não existe**.
+- `/advogado-plano-de-saude/#como-funciona`, `#faq`, `#lei`, `#situacoes` (4 sitelinks da campanha Saúde) — âncoras de uma página que **não existe**.
+
+Isso também afeta Quality Score (Google avalia a saúde dos sitelinks) e a experiência do usuário que clicou num sitelink específico esperando conteúdo específico.
+
+**Verdade 4 — O cemitério de campanhas antigas tem landing errada mesmo pausado.** As 7 campanhas em estado PAUSED (Direito Administrativo servidores/Concursos, Concursos Grandes, Licitações, Apreensão, Contato_WhatsApp, Leads-Inicial) todas têm os anúncios apontando para a home. Se alguma for reativada como está, vai levar ao mesmo problema. Ao reorganizar o inventário (R11), cada uma precisa ser ou corrigida antes de voltar ou arquivada de vez.
+
+**Verdade 5 — Áreas do espelho estático sem página no WP vivo.** O espelho em `alvescunnha.github.io` tem páginas `/licitacoes-e-contratos/`, `/processo-administrativo-sancionador/`, `/direito-tributario/`, `/desapropriacoes/`. **Nenhuma delas existe no WP de produção** (`alvescunhaadvocacia.adv.br`). Ou foram excluídas num refactor recente, ou nunca saíram do rascunho. O site vivo tem só 7 páginas:
+
+1. `/` — Início
+2. `/advogado-concurso-publico/` — Advogado em Concurso Público (29 KB)
+3. `/advogado-servidor-publico/` — Servidores Públicos (23 KB)
+4. `/inicio/publicacoes-juridicas/` — Publicações Jurídicas
+5. `/lindb/` — LINDB (17 KB)
+6. `/metodologia/` — Metodologia
+7. `/politica-de-privacidade-de-dados/` — Política de Privacidade
+
+### 5.3. Por que isso é um achado forte para a auditoria
+
+Mesmo com a correção, o diagnóstico de "landing page é ponto fraco" se mantém, apenas com escopo mais preciso:
+
+1. **Quality Score sofre em todos os anúncios que caem na home.** São 12 anúncios ativos nessa condição. Isso é parte dos 37,5% de impressões perdidas por rank.
+2. **Taxa de conversão de clique → WhatsApp cai nas campanhas que caem na home.** Quem busca "advogado mandado de segurança concurso" e vai para a home tem fricção extra.
+3. **A campanha ativa hoje opera com landing fantasma.** Esse é o achado novo que surge da sua correção — e justifica pausa imediata da campanha de Saúde, não só revisão (R6 agora virou urgente).
+4. **Áreas descritas no site de teste não existem na produção.** Se a estratégia for retomar frentes como Licitações, Sancionador, Tributário ou Desapropriações, as páginas precisam ser criadas antes.
+
+### 5.4. O texto dos anúncios
+
+O que estava funcionando no texto continua válido. Exemplo (campanha Servidores, anúncio `796774631930`):
 
 > Alves Cunha Advocacia | Advogado Servidor Público | Advogado Servidor Aposentado | ... | Atendimento humanizado, profissional e estratégico especializado em Direito Administrativo | Defesa de servidores públicos contra ilegalidades administrativas. Fale agora no WhatsApp.
 
-Tom compatível com a OAB, sem promessa de resultado, sem valores — bem. Pode ser ainda mais específico ("cálculo de proventos", "pensão por morte", "desvio de função"), com grupos de anúncios por tema.
+Tom compatível com a OAB, sem promessa de resultado, sem valores — bem. Pode ser ainda mais específico ("cálculo de proventos", "pensão por morte", "desvio de função"), com grupos de anúncios por tema e landings dedicadas.
 
 ---
 
@@ -214,6 +258,8 @@ Tom compatível com a OAB, sem promessa de resultado, sem valores — bem. Pode 
 Nenhuma destas é para executar sem sua aprovação. Cada uma vai virar tarefa separada com impacto estimado e passo-a-passo.
 
 ### Prioridade crítica (fazer antes de aumentar qualquer orçamento)
+
+**R0 (novo, urgente) — Pausar a campanha "Saúde – Negativa de Plano" hoje.** A única campanha ENABLED do inventário aponta seus anúncios para `/advogado-plano-de-saude/`, URL que não existe no WordPress. Cada clique pago está indo para 404 ou redirect — isso é gasto puro sem destino. Pausar enquanto a decisão de R1 não é tomada; se a decisão for manter a vertical, criar a página antes de reativar.
 
 **R1 — Decisão de posicionamento.** Em uma frase: o escritório, nos próximos 90 dias, vai fazer **o quê** com Ads? (a) Voltar à campanha de Concurso e expandir para MS/servidor? (b) Testar Saúde como nova vertical com infra própria? (c) Pausar Ads e investir em SEO/conteúdo? O resto depende desta resposta. (Confirmação da H5 do doc inicial.)
 
