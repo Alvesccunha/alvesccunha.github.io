@@ -9,6 +9,8 @@
 
 **Em uma frase:** a conta funcionou razoavelmente bem numa única frente (concursos públicos) por 5 meses, acumulou um cemitério de experimentos abandonados ao redor dela, e em novembro de 2026 está essencialmente **parada e pivotada para uma área fora do foco declarado (saúde — negativa de plano)**. Três decisões estruturais precisam ser tomadas antes de qualquer reinvestimento.
 
+> **Atualização 2026-11-09:** o cliente confirmou que **todas as campanhas em `PAUSED` são inventário descontinuado**, não pausas temporárias. Isso significa que a operação paga em Google Ads hoje **é apenas a campanha "Saúde – Negativa de Plano"** — que, pior, aponta para uma landing que não existe (ver seção 5). O diagnóstico de "concentração frágil + desperdício na campanha ativa" fica ainda mais forte: a conta inteira hoje é uma campanha indo para 404.
+
 ### Os números duros dos 180 dias
 
 | Métrica | Valor | Observação |
