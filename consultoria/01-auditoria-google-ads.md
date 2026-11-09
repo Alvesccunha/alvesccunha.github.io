@@ -173,7 +173,11 @@ Dados em `segments_hour_day.csv` (168 linhas). Análise detalhada fica para a pr
 
 ## 5. Anúncios e landing pages
 
-> **Correção 2026-11-09:** a primeira versão deste relatório afirmou que "todos os anúncios apontam para a home". Isso era errado — generalização indevida a partir da amostra do preview. Após extração completa das URLs de 17 anúncios não-removidos + 40 sitelinks, o quadro real é mais específico e, em dois pontos, mais grave.
+> **Correção 2026-11-09:** duas afirmações anteriores precisam ser retificadas.
+>
+> **(a)** A primeira versão deste relatório disse que "todos os anúncios apontam para a home". Era generalização indevida a partir da amostra do preview — após extração completa das URLs, o quadro é mais específico (seções 5.1 a 5.3 abaixo).
+>
+> **(b)** A primeira correção, por sua vez, afirmou que a landing `/advogado-plano-de-saude/` "não existe no WordPress". **O site de produção não é WordPress.** É o site estático **deste repositório** (`alvesccunha/alvesccunha.github.io`), com 16 páginas + 404 publicadas. O WordPress que respondeu ao MCP é um ambiente paralelo — provavelmente o CMS original de onde o estático foi gerado, ou um legado — e **não é o que serve `alvescunhaadvocacia.adv.br` ao visitante dos Ads**. A conclusão de que a landing de Saúde não existe **permanece verdadeira**, agora pela razão certa: o diretório `/advogado-plano-de-saude/` não está no repositório estático que é o site vivo.
 
 ### 5.1. Destino real de cada anúncio ativo
 
@@ -210,24 +214,36 @@ Isso também afeta Quality Score (Google avalia a saúde dos sitelinks) e a expe
 
 **Verdade 4 — O cemitério de campanhas antigas tem landing errada mesmo pausado.** As 7 campanhas em estado PAUSED (Direito Administrativo servidores/Concursos, Concursos Grandes, Licitações, Apreensão, Contato_WhatsApp, Leads-Inicial) todas têm os anúncios apontando para a home. Se alguma for reativada como está, vai levar ao mesmo problema. Ao reorganizar o inventário (R11), cada uma precisa ser ou corrigida antes de voltar ou arquivada de vez.
 
-**Verdade 5 — Áreas do espelho estático sem página no WP vivo.** O espelho em `alvescunnha.github.io` tem páginas `/licitacoes-e-contratos/`, `/processo-administrativo-sancionador/`, `/direito-tributario/`, `/desapropriacoes/`. **Nenhuma delas existe no WP de produção** (`alvescunhaadvocacia.adv.br`). Ou foram excluídas num refactor recente, ou nunca saíram do rascunho. O site vivo tem só 7 páginas:
+**Verdade 5 — As páginas de área que faltavam no WP existem sim no site vivo.** Correção da correção: ao inspecionar o repositório `alvesccunha/alvesccunha.github.io`, que é o site de produção, encontram-se `/licitacoes-e-contratos/`, `/processo-administrativo-sancionador/`, `/direito-tributario/` e `/desapropriacoes/` publicadas. O WordPress MCP não as listava porque não é o CMS vivo. **O que continua verdade é que `/advogado-plano-de-saude/` e `/mandado-seguranca-concurso/` não existem em lugar nenhum** — nem no site estático, nem no WP. O inventário real do site vivo tem 16 páginas + 404:
 
-1. `/` — Início
-2. `/advogado-concurso-publico/` — Advogado em Concurso Público (29 KB)
-3. `/advogado-servidor-publico/` — Servidores Públicos (23 KB)
-4. `/inicio/publicacoes-juridicas/` — Publicações Jurídicas
-5. `/lindb/` — LINDB (17 KB)
-6. `/metodologia/` — Metodologia
-7. `/politica-de-privacidade-de-dados/` — Política de Privacidade
+1. `/` — Home
+2. `/sobre/` — Sobre
+3. `/advogado-concurso-publico/` — área Concursos ✓
+4. `/advogado-servidor-publico/` — área Servidores ✓
+5. `/licitacoes-e-contratos/` — área Licitações ✓ (existe no repo)
+6. `/processo-administrativo-sancionador/` — área Sancionador ✓
+7. `/direito-tributario/` — área Tributário ✓
+8. `/desapropriacoes/` — área Desapropriações ✓
+9. `/publicacoes-juridicas/` — índice de publicações
+10. `/inicio/publicacoes-juridicas/` — publicações (subpágina)
+11. `/politica-de-privacidade-de-dados/`
+12-16. 5 artigos de conteúdo (nomeação, requisitos de posse, atraso de progressão, aposentadoria/EC 103, licença para curso de formação)
+
+**Verdade 6 — O site inteiro está `noindex, nofollow` e o `robots.txt` bloqueia tudo.** Confirmado em todos os 17 arquivos HTML do repositório (16 páginas + 404) e no `robots.txt` (`User-agent: * / Disallow: /`). Isso é consistente com o commit `edb408f` ("Publica o site estatico para revisao (ambiente de teste)"). Dois cenários possíveis:
+- **(a)** Decisão deliberada de manter o site fora da busca orgânica enquanto passa por revisão — então o site funciona hoje só como receptor do tráfego pago (Google Ads entra por URL direta e não respeita `robots.txt` para carregar a página; respeita só para não indexar na busca).
+- **(b)** Resíduo involuntário do deploy inicial que ninguém lembrou de tirar.
+
+Em ambos os cenários o custo é alto: **SEO orgânico é zero por construção**. Toda referência ao canal "SEO" nas estratégias que vamos avaliar vai encontrar essa parede antes de qualquer outra coisa. E tem um conflito interno que reforça que o cenário (b) é o mais provável: o `sitemap.xml` do site **declara 16 URLs como indexáveis** com `lastmod` recentes de 2026 — isto é, o escritório **está dizendo ao Google "indexe estas URLs"** em um arquivo, enquanto diz "não indexe nada" em outro. Sinais contraditórios. Preciso que você confirme qual é a intenção antes de qualquer ação nesse front.
 
 ### 5.3. Por que isso é um achado forte para a auditoria
 
-Mesmo com a correção, o diagnóstico de "landing page é ponto fraco" se mantém, apenas com escopo mais preciso:
+Mesmo com as correções, o diagnóstico central se mantém, com escopo refinado:
 
-1. **Quality Score sofre em todos os anúncios que caem na home.** São 12 anúncios ativos nessa condição. Isso é parte dos 37,5% de impressões perdidas por rank.
-2. **Taxa de conversão de clique → WhatsApp cai nas campanhas que caem na home.** Quem busca "advogado mandado de segurança concurso" e vai para a home tem fricção extra.
-3. **A campanha ativa hoje opera com landing fantasma.** Esse é o achado novo que surge da sua correção — e justifica pausa imediata da campanha de Saúde, não só revisão (R6 agora virou urgente).
-4. **Áreas descritas no site de teste não existem na produção.** Se a estratégia for retomar frentes como Licitações, Sancionador, Tributário ou Desapropriações, as páginas precisam ser criadas antes.
+1. **A campanha ativa hoje opera com landing que não existe.** Pausa imediata (R0) permanece a recomendação.
+2. **Noindex + robots.txt globais bloqueiam qualquer tráfego orgânico.** Zero captação pela busca não paga — por construção, não por falta de conteúdo. Páginas de área existem, só não são permitidas. Se a intenção era liberar após a revisão, precisa ser liberado agora.
+3. **As campanhas descontinuadas que apontam para home não são risco ativo** (cliente confirmou que não usa mais), mas são inventário que precisa ser arquivado de vez para o painel do Ads parar de poluir métricas agregadas.
+4. **Dois sitelinks ativos apontam para URLs inexistentes** (`/mandado-seguranca-concurso/`, âncoras em `/advogado-plano-de-saude/`) — precisam ser corrigidos ou removidos.
+5. **A campanha de Concurso que gerou 95% do histórico, quando reativada, já tem landing certa e pode ser.**
 
 ### 5.4. O texto dos anúncios
 
@@ -261,7 +277,9 @@ Nenhuma destas é para executar sem sua aprovação. Cada uma vai virar tarefa s
 
 ### Prioridade crítica (fazer antes de aumentar qualquer orçamento)
 
-**R0 (novo, urgente) — Pausar a campanha "Saúde – Negativa de Plano" hoje.** A única campanha ENABLED do inventário aponta seus anúncios para `/advogado-plano-de-saude/`, URL que não existe no WordPress. Cada clique pago está indo para 404 ou redirect — isso é gasto puro sem destino. Pausar enquanto a decisão de R1 não é tomada; se a decisão for manter a vertical, criar a página antes de reativar.
+**R0 (novo, urgente) — Pausar a campanha "Saúde – Negativa de Plano" hoje.** A única campanha ENABLED do inventário aponta seus anúncios para `/advogado-plano-de-saude/`, URL que não existe no site estático de produção (este repositório). Cada clique pago está indo para 404 (ou servido como home). Pausar enquanto a decisão de R1 não é tomada; se a decisão for manter a vertical, criar a página antes de reativar.
+
+**R0b (novo) — Decidir sobre indexação do site.** Todo o site está `noindex, nofollow` e o `robots.txt` bloqueia todos os bots, mas o `sitemap.xml` declara 16 URLs como indexáveis. Esses sinais se contradizem. Se a intenção é liberar o site para busca orgânica, basta remover o `Disallow: /` do `robots.txt` e tirar o `noindex, nofollow` dos 17 arquivos HTML — operação de minutos. Se a intenção é manter fechado, o `sitemap.xml` está sobrando. Confirme a intenção antes de qualquer ação de SEO.
 
 **R1 — Decisão de posicionamento.** Em uma frase: o escritório, nos próximos 90 dias, vai fazer **o quê** com Ads? (a) Voltar à campanha de Concurso e expandir para MS/servidor? (b) Testar Saúde como nova vertical com infra própria? (c) Pausar Ads e investir em SEO/conteúdo? O resto depende desta resposta. (Confirmação da H5 do doc inicial.)
 
